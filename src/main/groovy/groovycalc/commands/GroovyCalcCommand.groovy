@@ -1,14 +1,17 @@
 package groovycalc.commands
 
+import groovy.transform.CompileStatic
 import net.minecraft.command.CommandBase
 import net.minecraft.command.CommandException
 import net.minecraft.command.ICommandSender
 import net.minecraft.util.ChatComponentText
 
+import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
 
+@CompileStatic
 class GroovyCalcCommand extends CommandBase {
-    private static final engine = (new ScriptEngineManager()).getEngineByName("JavaScript")
+    private static final ScriptEngine engine = (new ScriptEngineManager()).getEngineByName("JavaScript")
 
     @Override
     String getCommandName() {
