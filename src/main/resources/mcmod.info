@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "groovycalc",
+    "name": "GroovyCalc",
+    "description": "A calculator mod using Groovy",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      ""
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
